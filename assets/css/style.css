@@ -1,5 +1,3 @@
-/* 
-        
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Handlee', cursive;
 }
@@ -23,9 +21,9 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1000;
 }
 
-/* Style the hero section */
+/*hero section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/hero.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -39,28 +37,32 @@ body {
     min-height: 100vh;
 }
 
-
+/* 
+This adds padding to the left and right of the body and main elements. 
+*/
 main {
     margin: 2rem 0;
 }
 
-/* footer style*/
+/*  footer */
 .footer {
     margin-top: auto;
     background-color: #6F4E37;
     color: #FFEBD4;
 }
 
-.footer a i {
+.footer .fa-brands  {
     color: #FFEBD4;
 }
 
+/* Style the navbar */
 .nav-item.active .nav-link {
     color: #000000;
-    font-weight: bolder;  
+    font-weight: bolder;
+    
 }
 
-
+/* service cards */
 .card {
     border: none;
 }
@@ -70,15 +72,13 @@ main {
     object-fit: cover;
 }
 
-/* Set the size of the testimonial images */
+/* testimonial images */
 .testimonial-image {
     width: 100px;
     height: 100px;
 }
 
-/* Set the border radius of the testimonial images */
+/* Applies rounded corners to images with the 'rounded-image' class */
 .rounded-image {
     border-radius: 15px;
-    
-} */
-
+}
