@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <title>Seven Seas Spa</title>
+
     <style>
-        
-        h1, h2, h3, h4, h5, h6 {
+         h1, h2, h3, h4, h5, h6 {
             font-family: 'Handlee', cursive;
         }
     
@@ -51,28 +51,34 @@
             min-height: 100vh;
         }
 
-       
+        /* 
+        This CSS rule adds padding to the left and right of the body and main elements. 
+        This ensures that the content is not right up against the viewport on small screens.
+        */
         main {
             margin: 2rem 0;
         }
     
-        /* footer style*/
+        /* Style the footer */
         .footer {
             margin-top: auto;
             background-color: #6F4E37;
             color: #FFEBD4;
         }
     
-        .footer a i {
+        .footer .fa-brands  {
             color: #FFEBD4;
         }
        
+        /* Highlight the active nav link */
         .nav-item.active .nav-link {
             color: #000000;
-            font-weight: bolder;  
+            /* Change to the color you want */
+            font-weight: bolder;
+            /* Makes the text bold */
         }
     
-       
+        /* Style the service cards */
         .card {
             border: none;
         }
@@ -88,12 +94,11 @@
             height: 100px;
         }
     
-        /* Set the border radius of the testimonial images */
+        /* Applies rounded corners to images with the 'rounded-image' class. Adjust the border-radius value to control the roundness. */
         .rounded-image {
             border-radius: 15px;
-            
+            /* Adjust the px value as needed */
         }
-
     </style>
 </head>
 
@@ -289,25 +294,7 @@
             </div>
         </div>
     </footer>
-    <!-- <footer class="footer text-center text-lg-start py-3 mt-auto">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-md-start mb-3 mb-md-0">
-                    <p>© 2022 Seven Seas Spa</p>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
-                        aria-label="Visit our Facebook page" class="me-2"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://x.com/?lang=en" target="_blank" rel="noopener noreferrer"
-                        aria-label="Follow us on Twitter" class="me-2"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
-                        aria-label="Follow us on Instagram" class="me-2"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
-                        aria-label="Connect with us on LinkedIn" class="me-2"><i class="fa-brands fa-linkedin"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer> -->
+   
 
 
     <script src="https://fonts.googleapis.com/css2?family=Handle&display=swap"></script>
